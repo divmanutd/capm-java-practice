@@ -1,0 +1,41 @@
+### List of Books
+
+GET http://localhost:4004/book/Books
+
+### Fetch Specific Book
+GET http://localhost:4004/book/Books(5)
+
+### Add Book
+
+POST http://localhost:4004/book/Books HTTP/1.1
+Content-Type: application/json
+
+{  
+"bookId": 2,
+"title": "3 idiots",
+"descr": "Comedy",
+"stock": 11,
+"price": 250,
+"rating": 4,
+"amount": 0
+}
+
+
+### Update Book
+
+PUT http://localhost:4004/book/Books(bookId=2) HTTP/1.1
+Content-Type: application/json
+
+{  
+"bookId": 2,
+"title": "dangal",
+"descr": "Comedy",
+"stock": 11,
+"price": 250,
+"rating": 4,
+"amount": 3
+}
+
+### Delete Book
+
+DELETE http://localhost:4004/book/Books(bookId=2)
