@@ -6,7 +6,7 @@ using {
     managed
 } from '@sap/cds/common';
 
-@fiori.draft.enabled
+@Capabilities.Updatable: false
 entity Books:  managed {
     key bookId       : Integer;
     title        : String(111);

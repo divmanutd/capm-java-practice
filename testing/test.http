@@ -11,19 +11,19 @@ POST http://localhost:4004/book/Books HTTP/1.1
 Content-Type: application/json
 
 {  
-"bookId": 2,
+"bookId": 71,
 "title": "3 idiots",
-"descr": "Comedy",
-"stock": 11,
-"price": 250,
-"rating": 4,
+"descr": "Fiction",
+"stock": 16,
+"price": 2500,
+"rating": 2,
 "amount": 0
 }
 
 
 ### Update Book
 
-PUT http://localhost:4004/book/Books(bookId=2) HTTP/1.1
+PUT http://localhost:4004/book/Books(bookId=10) HTTP/1.1
 Content-Type: application/json
 
 {  
@@ -38,4 +38,4 @@ Content-Type: application/json
 
 ### Delete Book
 
-DELETE http://localhost:4004/book/Books(bookId=2)
+DELETE http://localhost:4004/book/Books(bookId=10)

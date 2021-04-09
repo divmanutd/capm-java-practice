@@ -1,3 +1,4 @@
 bookId,title,descr,stock,price,rating,amount
- 8,Harry Potter,Magic,9,500,3,0
- 5,Jingle Bells,Christmas,6,1000,4,0
+8,Harry Potter,Magic,9,500,3,5
+5,Jingle Bells,Christmas,6,1000,4,4
+1,Jungle Book,Animals,0,700,5,6
